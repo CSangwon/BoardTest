@@ -1,0 +1,113 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+
+.form-login{
+    padding: 15px;
+}
+
+.form-signin
+{
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+    margin: auto;
+}
+.form-movie{
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin: auto;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-signin .form-group{
+    margin: 10px;
+    text-align: left;
+}
+
+.formFooter{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.btn-primary {
+    background-color: #15751b;
+    border-color: #4caf50;
+}
+
+.fw-normal {
+    color: green;
+}
+
+/*username*/
+/*
+중복X
+ */
+.checkUsername1{
+    color: green;
+    display: none;
+}
+/*
+중복O
+ */
+.checkUsername2{
+    color: red;
+    display: none;
+}
+
+/*nickname*/
+/*
+중복X
+ */
+.checkNickname1 {
+    color: green;
+    display: none;
+}
+/*
+중복O
+ */
+.checkNickname2{
+    color: red;
+    display: none;
+}
+
+/*password*/
+
+.checkPw1{
+    color: green;
+    display: none;
+}
+.checkPw2{
+    color: red;
+    display: none;
+}
